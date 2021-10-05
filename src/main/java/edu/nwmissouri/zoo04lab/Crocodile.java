@@ -1,4 +1,4 @@
-package edu.nwmissouri.zoo04llab;
+package edu.nwmissouri.zoo04lab;
 
 public class Crocodile extends Animal {
         public Crocodile(String name){
