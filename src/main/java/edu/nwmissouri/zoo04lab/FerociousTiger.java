@@ -9,7 +9,7 @@ package edu.nwmissouri.zoo04lab;
  *
  * @author Saitej Veerabathini
  */
-public class FerociousTigerTiger extends Animal{
+public class FerociousTiger extends Animal{
     
     /***
      * Constructor for FerociousTiger
@@ -24,7 +24,7 @@ public class FerociousTigerTiger extends Animal{
      */
     @Override
     public void speak() {
-        System.out.printf("I'm %s.I'm a Tiger\n", this.name);
+        System.out.printf("I'm %s.I'm a Ferocious Tiger\n", this.name);
     }
     
     /***
