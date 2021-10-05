@@ -1,6 +1,6 @@
 package edu.nwmissouri.zoo04lab;
 /**
-author @ ruthvik bhairav
+author @ ruthvik bhairav (S545261)
 **/
 
 public class Crocodile extends Animal {
