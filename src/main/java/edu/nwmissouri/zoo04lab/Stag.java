@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.rahulkonda04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -18,7 +18,7 @@ public class Stag extends Animal{
     public Stag(String name){
         super(name);
     }
-     @Override
+     //@Override
     public void eat(){
         System.out.println("I'm CARNIVOROUS, I eat grass.");
     }
@@ -30,7 +30,7 @@ public class Stag extends Animal{
     public void move() {
         System.out.println("When I feel SUSPICIOUS, I RUN very fast!");
     }
-     @Override
+     //@Override
     public void color(){
         System.out.println("I'm brown in colour with white spots on me");
     }

@@ -1,4 +1,9 @@
-package edu.nwmissouri.saikrishna04lab;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -14,7 +19,7 @@ public class StringRay extends Animal {
         super(name);
     }
 
-    @Override
+   // @Override
     public void swim() {
         System.out.println("Generic animal swim");
     }
@@ -23,5 +28,8 @@ public class StringRay extends Animal {
     public void move() {
         System.out.println("Generic animal movement");
     }
-
+    @Override
+    public void speak() {
+        System.out.println("Generic animal voice");
+    }
 }

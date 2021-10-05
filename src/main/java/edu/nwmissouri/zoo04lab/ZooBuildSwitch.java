@@ -33,7 +33,7 @@ public class ZooBuildSwitch {
         }
 
         System.out.println("===============================");
-        System.out.println("Custom Animal Files in Package");
+        System.out.println("Generate Custom Animal Switch");
         System.out.println("===============================");
         int n = 1;
         for (String file : filesArray) {
@@ -43,7 +43,7 @@ public class ZooBuildSwitch {
                 int fileNameLength = fileLength - lengthExtension;
                 var justName = file.substring(0, fileNameLength);
                 if (justName.endsWith("Group")) {
-                    
+
                     // output this:
                     //case 1 -> {             
                     //    AardvarkGroup.create();
@@ -56,6 +56,33 @@ public class ZooBuildSwitch {
                 }
             }
         }
+
+        System.out.println("===============================");
+        System.out.println("Generate Custom Animal Menu");
+        System.out.println("===============================");
+        n = 1;
+        for (String file : filesArray) {
+            if (!ignoreList.contains(file)) {
+                int fileLength = file.length();
+                int lengthExtension = ".java".length();
+                int fileNameLength = fileLength - lengthExtension;
+                var justName = file.substring(0, fileNameLength);
+                if (justName.endsWith("Group")) {
+
+                    // output this:
+                    //System.out.println("1. Aardvarks");
+                    //System.out.println("2. Asps");
+                    //System.out.println("3. Bearcats");
+                    // write code below.....
+                    System.out.println("case " + n++ + " -> {");
+                    System.out.println(justName + ".create();");
+                    System.out.println(justName + ".run();");
+                    System.out.println("}");
+                }
+            }
+        }
+        System.out.println("===============================\n");
+        System.out.println("Update NUMBER_ANIMAL_TYPES = ? \n");
         System.out.println("===============================\n");
 
     }

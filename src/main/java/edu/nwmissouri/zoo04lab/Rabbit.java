@@ -25,16 +25,20 @@ public class Rabbit extends Animal {
     }
 
     @Override
+    public void move() {
+        System.out.println("I hop");
+    }
+    //@Override
     public void favfood() {
         System.out.println("I Love eating Clover!!");
     }
 
-    @Override
+    //@Override
     public void skintype() {
         System.out.println("I am very soft and fur");
     }
 
-    @Override
+    //@Override
     public void color() {
         System.out.println("I can be White or Brown!!");
     }

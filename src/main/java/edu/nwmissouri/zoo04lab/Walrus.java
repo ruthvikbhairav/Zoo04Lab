@@ -15,23 +15,16 @@ public class Walrus extends Animal {
         super(name);
     }
 
-    public void intro() { // method
-        System.out.println("I'm an Walrus");
+    
+
+     @Override
+    public void speak() {//method
+        System.out.println("I'm walrus, I growls, taps and make bell-like sounds below water.");
     }
 
     @Override
-    public void about() {  //method
-        System.out.println("I am a sea animal");
-    }
-
-    @Override
-    public void family() {//method
-        System.out.println("I'm the only living species in the family Odobenidae and genus Odobenus.");
-    }
-
-    @Override
-    public void location() { //method
-        System.out.println("Mostly i live in Pacific ocean");
+    public void move() { //method
+        System.out.println("I move move and run");
     }
 
 }
