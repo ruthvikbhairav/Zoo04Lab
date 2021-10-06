@@ -72,6 +72,7 @@ public class ZooApp {
                 System.out.println("13. Rabbit");
                 System.out.println("14. Shoebill");
                 System.out.println("15. Xraytetra");                
+                System.out.println("32. Emu");                
 
 
                 try {
@@ -145,6 +146,10 @@ public class ZooApp {
                     case 15 : {
                         XraytetraGroup.create();
                         XraytetraGroup.run();
+                    }
+                    case 32 : {
+                        EmuGroup.create();
+                        EmuGroup.run();
                     }
                     default : {
                     }

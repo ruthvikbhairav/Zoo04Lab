@@ -8,6 +8,7 @@ package edu.nwmissouri.zoo04lab;
 /**
  *
  * @author Akshay krishna kintali
+ * 
  */
 //Inheritance taking place here
 public class CongoLion extends Animal {
