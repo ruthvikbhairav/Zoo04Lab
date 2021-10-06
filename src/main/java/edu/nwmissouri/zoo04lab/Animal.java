@@ -15,12 +15,21 @@ public abstract class Animal {
     protected String name = "no name";
 
     /**
+     * Animals have an associated gender which may be unknown.
+     *
+     * We limit the choices for selection by using an enum
+     */
+    private AnimalGender gender;
+
+    /**
      * Animal constructor
      *
      * @param name - the name of this instance of an animal
      */
     public Animal(String name) {
         this.name = name;
+        this.gender = AnimalGender.UNKNOWN;
+
     }
 
     /**
@@ -39,10 +48,31 @@ public abstract class Animal {
 
     /**
      * Get animal's name.
+     *
      * @return name
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * Get the animal gender.
+     *
+     * @see edu.nwmissouri.zoo04lab.AnimalGender
+     * @return the gender
+     */
+    public AnimalGender getGender() {
+        return gender;
+    }
+
+    /**
+     * Set the animal gender using an enum
+     *
+     * @see edu.nwmissouri.zoo04lab.AnimalGender
+     * @param gender the gender to set
+     */
+    public void setGender(AnimalGender gender) {
+        this.gender = gender;
     }
 
 }

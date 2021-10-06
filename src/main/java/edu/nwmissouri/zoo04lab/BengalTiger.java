@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.vamsibhogireddy04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -26,14 +26,14 @@ public class BengalTiger extends Animal{
     *method created to indicate size
     */
    @Override
-    public void size()
+    public void move()
     {
-        System.out.println("I am one of the strongest animal in the world");
+        System.out.println("I am one of the strongest animal in the world and move with four legs");
     }
     /*
     *method created to explain in which place it is going to survive
     */
-   @Override
+   
     public void place()
     {
         System.out.println("My existence is in many locations in the world");

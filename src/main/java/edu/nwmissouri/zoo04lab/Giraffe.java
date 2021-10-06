@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.himaja04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -26,9 +26,7 @@ public class Giraffe extends Animal {
 
     }
 
-    @Override
-    public void run() {
-        System.out.println("I am running");
-    }
+   
 
 }
+

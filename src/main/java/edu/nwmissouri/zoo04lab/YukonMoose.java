@@ -1,4 +1,6 @@
-package edu.nwmissouri.Zoo04lab;
+
+package edu.nwmissouri.zoo04lab;
+
 
 /**
  *

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Zoo04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -23,29 +23,20 @@ public class Buffalo extends Animal {
 
     /**
      * *
-     * Override method for buffalo diet
+     * Override method for buffalo speak
      */
     @Override
-    public void diet() {
-        System.out.println("I'm a Herbivore");
+    public void speak() {
+        System.out.printf("I'm %s. I'm a Buffalo!", this.name);
     }
-
+     
     /**
      * *
-     * Override method for buffalo family
+     * Override method for buffalo move
      */
     @Override
-    public void family() {
-        System.out.println("I am from Bovidae family");
-    }
-
-    /**
-     * *
-     * Override method for buffalo lifespan
-     */
-    @Override
-    public void lifespan() {
-        System.out.println("My life span is 10-20 years");
+    public void move() {
+        System.out.println("I usually walk with four legs");
     }
 
 }

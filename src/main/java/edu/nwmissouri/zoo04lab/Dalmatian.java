@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.nikhilporika04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
- *
+ *This is a class
  * @author Nikhil Porika
  */
 public class Dalmatian extends Animal {
@@ -21,17 +21,13 @@ public class Dalmatian extends Animal {
     }
 
     @Override
-    public void run() {
-        System.out.println("I am Dalmatian I can run very fast");
+    public void speak() {
+        System.out.println("I am Dalmatian,I can speak");
     }
 
     @Override
-    public void eat() {
-        System.out.println("I am Dalmatian I can eat all the vegtables ");
+    public void move() {
+        System.out.println("I am Dalmatian,I can run, run , run");
     }
 
-    @Override
-    public void jump() {
-        System.out.println("I am Dalmatian I can jump at very fall distance");
-    }
 }

@@ -7,7 +7,7 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
+ * This Class extends Animal class
  * @author Sarath Arrepu
  */
 public class TauntingTiger extends Animal {
@@ -35,7 +35,6 @@ public class TauntingTiger extends Animal {
     /**
      * This method is about the animal eating
      */
-    @Override
     public void eat() {
         System.out.println("I eat meat");
     }

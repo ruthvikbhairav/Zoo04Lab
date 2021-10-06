@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.jayanthnaramsetty04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  * Brachiosaurus class creation and extends with Animal class
- * @author S544932
+ * @author Jayanth Naramsetty
  */
 public class Brachiosaurus extends Animal{
     

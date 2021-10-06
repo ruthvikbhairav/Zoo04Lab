@@ -1,10 +1,9 @@
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.ManojKota04lab;
+package edu.nwmissouri.zoo04lab;;
 
 /**
  *
@@ -70,3 +69,5 @@ public class Frog extends Animal {
         System.out.println("lives upto 10-12 years");
     }
 }
+
+

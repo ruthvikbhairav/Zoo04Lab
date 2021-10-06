@@ -69,35 +69,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <excludes>
-                        <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/ArizonaJaguar.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Buffalo.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Cat.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Elephant.java</exclude> 
-                        <exclude>edu/nwmissouri/zoo04lab/ElephantBird.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Emu.java</exclude>                          
-                        <exclude>edu/nwmissouri/zoo04lab/FerociousTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Frog.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Giraffe.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Glyptodon.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Griffin.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/HarpSeal.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Hippopotamus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Puma.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Stag.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/TauntingTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/YukonMoose.java</exclude>
-                        <exclude>Xraytetra.java</exclude>
+                    <excludes>     
+                        <exclude>edu/nwmissouri/zoo04lab/GoatGroup.java</exclude>                          
                     </excludes>
                 </configuration>
             </plugin>
@@ -110,34 +83,7 @@
                     <destDir>docs</destDir>
                     <sourcepath>${basedir}/src/main/java/</sourcepath>
                     <sourceFileExcludes>              
-                        <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/ArizonaJaguar.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Buffalo.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Cat.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Elephant.java</exclude> 
-                        <exclude>edu/nwmissouri/zoo04lab/ElephantBird.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Emu.java</exclude>                          
-                        <exclude>edu/nwmissouri/zoo04lab/FerociousTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Frog.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Giraffe.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Glyptodon.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Griffin.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/HarpSeal.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Hippopotamus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Puma.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Stag.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/TauntingTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/YukonMoose.java</exclude>
-                        <exclude>Xraytetra.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/GoatGroup.java</exclude>                          
                     </sourceFileExcludes>
                 </configuration>
             </plugin> 

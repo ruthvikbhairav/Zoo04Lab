@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Areti04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -18,19 +18,19 @@ public class Abyssinian extends Animal {
    }
    //overriding the talk method
     @Override
-   public void talk()
+   public void speak()
     {
         System.out.println("I'm Abyssinia.");
     }
    //overriding the eat method
-   @Override
+   
     public void eat()
     {
         System.out.println("I eat Purina Pro Plan True Nature Adult Grain Free Natural Salmon & Egg Recipe.");
     }
     //overriding the walk method
    @Override
-    public void walk()
+    public void move()
     {
         System.out.println("I walk on four legs.");
     }

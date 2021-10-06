@@ -21,8 +21,8 @@ public class Duck extends Animal {
      public  void eat() {
         System.out.println("I eat earthworms");
 }
-    
-     public  void sleep() {
-        System.out.println("I sleep on water");
+    @Override
+     public  void move() {
+        System.out.println("I use feet to swim");
 } 
 }

@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo04lab;
 /**
  *
- * @author Venkata Prabhakar Takkellapati
+ * @author Venkata Prabhakar Takkellapati (S545407)
  */
 public class Emu extends Animal {
     
@@ -23,9 +23,6 @@ public class Emu extends Animal {
     @Override
     public void move() {
         System.out.println("they've become rare in the wild.");
-    }
-     @Override
-    public void look() {
-        System.out.println("Though striped like a zebra, it’s actually a smaller cousin to the giraffe.");
-    }
+    }    
+
 }

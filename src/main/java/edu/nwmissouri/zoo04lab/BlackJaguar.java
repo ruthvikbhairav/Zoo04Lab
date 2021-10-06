@@ -1,17 +1,17 @@
-package edu.nwmissouri.Zoo04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
  * @author Naveen Kumar Kanaparthi
  */
-public class ArizonaJaguar extends Animal {
+public class BlackJaguar extends Animal {
     
-    public ArizonaJaguar(String name) {
+    public BlackJaguar(String name) {
         super(name);
     }
     
     @Override
-    public void talk(){
+    public void speak(){
         System.out.printf("I am %s. I am Jaguar!", this.name);
     }
     
@@ -19,9 +19,8 @@ public class ArizonaJaguar extends Animal {
     public void move(){
         System.out.println("When I move, I walk.\n");
     }
-        
-    @Override
      public void behaviour(){
         System.out.println("I am very aggressive and hunt alone");
     }
     }
+

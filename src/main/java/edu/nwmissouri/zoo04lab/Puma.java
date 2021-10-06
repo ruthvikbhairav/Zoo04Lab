@@ -1,18 +1,24 @@
+package edu.nwmissouri.zoo04lab;
 
-    public class Puma extends Animal {
-        public Puma(String name){
-         super(name);
+/**
+ *
+ * @author Sai Kaushik Beeram
+ */
+//custom animal extends Animal class
+public class Puma extends Animal {
+    
+    //Declaration of string name
+    
+    public Puma(String name){
+        super(name);
+        
     }
     
-    @Override
-    public void speak() {
-        System.out.println("I'm an puma!");
+    public void speak(){
+        System.out.println("Puma sound");
     }
     
-    @Override
-    public void move() {
-        System.out.println("When I move, I walk, walk, walk.");
+    public void move(){
+        System.out.println("Puma movement");
     }
-    
-}
-
+ }

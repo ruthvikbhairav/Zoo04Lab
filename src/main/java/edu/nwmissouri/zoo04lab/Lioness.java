@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.SreebharathMallampati04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  * This is lioness class which is extended from Animal Class

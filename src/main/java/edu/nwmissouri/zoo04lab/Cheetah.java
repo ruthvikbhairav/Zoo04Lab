@@ -3,29 +3,34 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Zoo04lab;
+package edu.nwmissouri.zoo04lab;
+
+
 
 /**
  *
  * @author Srilekha Janagam
  */
 public class Cheetah extends Animal {
+
     /**
-    * Cheetah constructor
-    * @param name - the name of this instance of an animal
-    */
-    public Cheetah(String name){
+     * Cheetah constructor 
+     * @param name - the name of this aardvark
+     */
+    public Cheetah(String name) {
         super(name);
     }
-   
-    public void move() {
-        System.out.println("When I move,I walk, walk, walk.");//To change body of generated methods, choose Tools | Templates.
+
+    @Override
+    public void speak() {
+        System.out.printf("I'm %s. I'm an Aardvark!", this.name);
     }
 
-
-    public void speak() {
-        System.out.println("I'm an cheetah! "+" is my petname");//To change body of generated methods, choose Tools | Templates.
+    @Override
+    public void move() {
+        System.out.println("When I move, I walk, walk, walk.");;//To change body of generated methods, choose Tools | Templates.
     }
     
     
 }
+

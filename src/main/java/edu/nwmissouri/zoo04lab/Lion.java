@@ -3,29 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Nikhil04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
  * @author Nikhil KrishnanVenkatesh
  */
 public class Lion extends Animal {
+
     /**
-     * Lion constructor
-     * @param name - the name of this instance of an animal
+     * Aardvark constructor 
+     * @param name - the name of this aardvark
      */
-    
-    public Lion(String name){
+    public Lion(String name) {
         super(name);
     }
 
     @Override
-    public void move() {
-        System.out.println("I will roar and hunt animals");
+    public void speak() {
+        System.out.printf("I'm %s. I'm an Aardvark!", this.name);
     }
 
     @Override
-    public void speak() {
-         System.out.printf("I'm %s. I'm an Lion! \n", this.name);
+    public void move() {
+        System.out.println("When I move, I walk, walk, walk.");
+    }
+
     }   
-}
+

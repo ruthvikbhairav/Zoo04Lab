@@ -74,16 +74,14 @@ public class ZooBuildSwitch {
                     //System.out.println("2. Asps");
                     //System.out.println("3. Bearcats");
                     // write code below.....
-                    System.out.println("case " + n++ + " -> {");
-                    System.out.println(justName + ".create();");
-                    System.out.println(justName + ".run();");
-                    System.out.println("}");
+                   //System.out.println("case " + n++ + " -> {");
+                    System.out.println("System.out.println(\""+ n++ +". "+justName.replace("Group","")+"\");" );
                 }
             }
         }
-        System.out.println("===============================\n");
-        System.out.println("Update NUMBER_ANIMAL_TYPES = ? \n");
-        System.out.println("===============================\n");
+        System.out.println("===============================");
+        System.out.println("Update NUMBER_ANIMAL_TYPES = "+ --n);
+        System.out.println("===============================");
 
     }
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.indu04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -28,8 +28,5 @@ public class Hippopotamus extends Animal {
         System.out.println("When I move, I walk, walk, walk.");
     }
 
-    @Override
-    public void run() {
-        System.out.println("I am running");
-    }
+    
 }

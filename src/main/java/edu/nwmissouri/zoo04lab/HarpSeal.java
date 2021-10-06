@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.rehana04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -18,18 +18,16 @@ public class HarpSeal extends Animal{
         super(name);
     }
     
-    
-    public void funfacts(){
-        System.out.println("I am HarpSeal, I am more migratory and I can travel more than 3100 miles.");
+    @Override
+    public void speak(){
+        System.out.println("I am HarpSeal and I communicate vocally by making noise with my throat and air.");
     }
-    
-    public void location(){
-        System.out.println("I am native to northern part of Arctic Ocean and Atlantic Ocean.");
+    @Override
+    public void move(){
+        System.out.println("I swim in sea iceand I move on ice by pulling my front flippers, which have strong claws.");
     } 
     
-    public void food(){
-        System.out.println("I eat many types of fish and invertibrates.");
-    }
+    
     
 }
 

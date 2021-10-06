@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.kintali04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -25,15 +25,21 @@ public class CongoLion extends Animal {
         System.out.println("I am lion and my color is deep orange brown");
     }
    //sound method created for lion
-    public void sound()
+   @Override
+    public void speak()
     {
         System.out.println("I sounds as roar");
     }
-   @Override
+   
    //place method created for lion
     public void place()
     {
         System.out.println("I generally lives in Africa");
+    }
+    @Override
+    public void move()
+    {
+        System.out.println("I move with four legs");
     }
     
     

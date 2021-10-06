@@ -19,7 +19,7 @@ public class ZooApp {
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
 
     // specify number of  animal types available - TODO: NEED TO AUTOUPDATE****
-    private static final int NUMBER_ANIMAL_TYPES = 3;
+    private static final int NUMBER_ANIMAL_TYPES = 15;
 
     /**
      * This main() method is the entry point for our application.
@@ -56,9 +56,23 @@ public class ZooApp {
                 // TODO: NEED TO AUTOUPDATE THE MENU *************
                 System.out.println("What animals would you like to see?");
                 System.out.println("Enter a number to choose, 0 to exit.");
-                System.out.println("1. Aardvarks");
-                System.out.println("2. Asps");
-                System.out.println("3. Bearcats");
+
+                System.out.println("1. Aardvark");
+                System.out.println("2. Asp");
+                System.out.println("3. Bearcat");
+                System.out.println("4. Cow");
+                System.out.println("5. Crocodile");
+                System.out.println("6. Dalmatian");
+                System.out.println("7. Duck");
+                System.out.println("8. Floppy");
+                System.out.println("9. Griffin");
+                System.out.println("10. Kangaroov");
+                System.out.println("11. Liger");
+                System.out.println("12. MightyLion");
+                System.out.println("13. Rabbit");
+                System.out.println("14. Shoebill");
+                System.out.println("15. Xraytetra");                
+
 
                 try {
                     typeNumberInput = scanner.nextInt();
@@ -71,19 +85,68 @@ public class ZooApp {
 
                 // switch by animal type - autogenerate with ZooBuildSwitch.java
                 switch (typeNumberInput) {
-                    case 1 -> {
+
+                    case 1 : {
                         AardvarkGroup.create();
                         AardvarkGroup.run();
                     }
-                    case 2 -> {
+                    case 2 : {
                         AspGroup.create();
                         AspGroup.run();
                     }
-                    case 3 -> {
+                    case 3 : {
                         BearcatGroup.create();
                         BearcatGroup.run();
                     }
-                    default -> {
+                    case 4 :{
+                        CowGroup.create();
+                        CowGroup.run();
+                    }
+                    case 5 :{
+                        CrocodileGroup.create();
+                        CrocodileGroup.run();
+                    }
+                    case 6 : {
+                        DalmatianGroup.create();
+                        DalmatianGroup.run();
+                    }
+                    case 7 : {
+                        DuckGroup.create();
+                        DuckGroup.run();
+                    }
+                    case 8 : {
+                        FloppyGroup.create();
+                        FloppyGroup.run();
+                    }
+                    case 9 : {
+                        GriffinGroup.create();
+                        GriffinGroup.run();
+                    }
+                    case 10 : {
+                        KangaroovGroup.create();
+                        KangaroovGroup.run();
+                    }
+                    case 11 : {
+//                        LigerGroup.create();
+//                        LigerGroup.run();
+                    }
+                    case 12 : {
+                        MightyLionGroup.create();
+                        MightyLionGroup.run();
+                    }
+                    case 13 : {
+                        RabbitGroup.create();
+                        RabbitGroup.run();
+                    }
+                    case 14 : {
+                        ShoebillGroup.create();
+                        ShoebillGroup.run();
+                    }
+                    case 15 : {
+                        XraytetraGroup.create();
+                        XraytetraGroup.run();
+                    }
+                    default : {
                     }
 
                 }
@@ -92,14 +155,12 @@ public class ZooApp {
             } while (isValid);
 
             // close the if loop
-        }
-
-        // Prompt for adventures: ask if they want to try an adventure
-//        System.out.println("Do you want to go on an adventure (y/n)?");
-//        var adventureInterestInput = scanner.next();
-//        if (adventureInterestInput.toUpperCase().startsWith("Y")) {
-//            System.out.println("Sorry - this option is not yet available.");
-//        }
+        } // Prompt for adventures: ask if they want to try an adventure
+        //        System.out.println("Do you want to go on an adventure (y/n)?");
+        //        var adventureInterestInput = scanner.next();
+        //        if (adventureInterestInput.toUpperCase().startsWith("Y")) {
+        //            System.out.println("Sorry - this option is not yet available.");
+        //        }
         // output goodbye
         System.out.println(GOODBYE_MESSAGE);
 

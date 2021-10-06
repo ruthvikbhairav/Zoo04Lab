@@ -1,4 +1,4 @@
-package edu.nwmissouri.HemanthPidaparthy04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
