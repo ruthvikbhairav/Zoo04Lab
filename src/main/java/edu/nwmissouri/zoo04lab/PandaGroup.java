@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class PandaGroup {
 
-    private static ArrayList<Panda> myGroup;
+    private static ArrayList<Panda> myPandaGroup;
 
     /**
      * Create a static group of Panda
@@ -24,7 +24,7 @@ public class PandaGroup {
         myPandaGroup.add(new Panda("Panda2"));
         myPandaGroup.add(new Panda("Panda3"));
 
-        return myGroup.size();
+        return myPandaGroup.size();
     }
 
     /**

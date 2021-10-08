@@ -10,7 +10,7 @@ public class TauntingTigerGroup {
     private static ArrayList<TauntingTiger> myGroup;
 
     /**
-     * Create a static group of Bearcat
+     * Create a static group of TauntingTigerGroup
      *
      * @return the number of animals in the group
      */

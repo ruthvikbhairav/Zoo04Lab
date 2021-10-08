@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
+ *This is Rabbit class which extends Animal class
  * @author Keerthana Ragut
  */
 public class Rabbit extends Animal {

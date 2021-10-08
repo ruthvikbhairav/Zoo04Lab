@@ -7,7 +7,7 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
+ *This Class extends Animal class
  * @author Pinninti Harshika
  */
 public class Panthera extends Animal {

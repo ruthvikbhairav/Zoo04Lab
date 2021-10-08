@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
+ * This class is about Shoebill extends Animal
  * @author Gayatri Devabhaktuni
  */
 public class Shoebill extends Animal {

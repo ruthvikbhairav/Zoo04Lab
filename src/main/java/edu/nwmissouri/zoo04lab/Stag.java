@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
+ * This is the Stag class which extends Animal
  * @author Rahul Konda
  */
 public class Stag extends Animal{

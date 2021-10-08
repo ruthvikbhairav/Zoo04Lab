@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- *
+ *This is PantheraGroup group class
  * @author Pinninti Harshika
  */
 public class PantheraGroup {
