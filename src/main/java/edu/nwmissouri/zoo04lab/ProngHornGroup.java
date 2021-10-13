@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- *
+ * This is ProngHorn group class.
  * @author Alekhya Gandra
  */
 public class ProngHornGroup {

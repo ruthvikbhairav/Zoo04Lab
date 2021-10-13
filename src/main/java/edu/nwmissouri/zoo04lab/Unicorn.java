@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Sujithreddy04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
  * @author Sujithreddy
  */
-public class unicorn extends Animal {
+public class Unicorn extends Animal {
     /**
      * unicorn constructor
      * @param name - the name of this instance of an animal
      */
     
-    public unicorn(String name){
+    public Unicorn(String name){
         super(name);
     }
 

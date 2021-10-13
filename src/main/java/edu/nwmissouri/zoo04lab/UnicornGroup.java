@@ -39,7 +39,9 @@ public class UnicornGroup {
             Unicorn.move();
         });
         System.out.println("Nice Unicorn - that was superb!");
-        System.out.println("go go unicorn");
+        System.out.println("go go unicorn");       
+        System.out.println("***********************************");
+
     }
 
 }

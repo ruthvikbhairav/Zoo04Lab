@@ -13,7 +13,7 @@
  
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>16</java.version>
+        <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.release>${java.version}</maven.compiler.release>
@@ -69,10 +69,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <excludes>     
-                        <exclude>edu/nwmissouri/zoo04lab/BlackJaguarGroup.java</exclude>   
-                        <exclude>edu/nwmissouri/zoo04lab/Unicorn.java</exclude>    
-                        <exclude>edu/nwmissouri/zoo04lab/UnicornGroup.java</exclude>                           
+                    <excludes>        
+                        <exclude>edu/nwmissouri/zoo04lab/FroGroup.java</exclude>                           
                     </excludes>
                 </configuration>
             </plugin>
@@ -85,9 +83,7 @@
                     <destDir>docs</destDir>
                     <sourcepath>${basedir}/src/main/java/</sourcepath>
                     <sourceFileExcludes>     
-                        <exclude>edu/nwmissouri/zoo04lab/BlackJaguarGroup.java</exclude>   
-                        <exclude>edu/nwmissouri/zoo04lab/Unicorn.java</exclude>    
-                        <exclude>edu/nwmissouri/zoo04lab/UnicornGroup.java</exclude>                   
+                        <exclude>edu/nwmissouri/zoo04lab/FroGroup.java</exclude>                    
                     </sourceFileExcludes>
                 </configuration>
             </plugin> 

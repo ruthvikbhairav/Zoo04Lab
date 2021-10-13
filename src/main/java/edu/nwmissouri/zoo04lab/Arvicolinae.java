@@ -1,6 +1,6 @@
 package edu.nwmissouri.zoo04lab;
 /**
- *
+ * Arvicolinae class (derived subclass of the superclass Animal)
  * @author NIKHIL KUMAR AKARAPU
  */
 public class Arvicolinae extends Animal{

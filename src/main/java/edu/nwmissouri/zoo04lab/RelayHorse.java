@@ -6,6 +6,7 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
+ * RelayHorse class extends from parent class Animal
  *
  * @author BUHVAN CHANDRA SARAKAM S544899
  */

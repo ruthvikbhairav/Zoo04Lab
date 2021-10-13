@@ -3,7 +3,8 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- *
+ * This is my custom group class
+ * Provides methods to create and run a group of Arvicolinae
  * @author NIKHIL KUMAR AKARAPU
  */
 public class ArvicolinaeGroup {
