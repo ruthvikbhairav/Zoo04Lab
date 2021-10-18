@@ -1,27 +1,28 @@
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */package edu.nwmissouri.zoo04lab;
+ */
+package edu.nwmissouri.zoo04lab;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 /**
- * Test Aardvark using JUnit5
  *
- * @author Tejaswini Challa
+ * @author Nikhil Krishnan Venkatesh
  */
-public class GerenukTest {
-   
+public class LionTest {
+
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
-    
+    public LionTest() {
+    }
+
     @BeforeAll
     public static void setUpClass() {
     }
@@ -39,40 +40,26 @@ public class GerenukTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of speak method, of class Gerenuk.
-     *
-     * @throws java.lang.Exception
-     */
     @Test
     public void testSpeak() throws Exception {
-        String expected = "I'm Gazelle. I'm an Aardvark!";
-        var gerenuk = new Gerenuk("Gazelle");
-        gerenuk.speak();
+        String expected = "I'm Brown. I'm an Lion!";
+        var Lion = new Lion("Brown");
+        Lion.speak();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
     }
 
-    /**
-     * Test of move method, of class Gerenuk.
-     *
-     * @throws java.lang.Exception
-     */
     @Test
     public void testMove() throws Exception {
-        String expected = "I can move with four legs";
-        var gerenuk = new Gerenuk("Gazelle");
-         gerenuk.move();
+        String expected = "When I move, I walk, walk, walk.";
+        var Lion = new Lion("Brown");
+        Lion.move();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
     }
-     /**
-     * Test custom function gerenukAddition()
-     *
-     * @throws Exception
-     */
+      
     @Test
-    public void testGerenukAddition() throws Exception {
+    public void testLionAddition() throws Exception {
         
         // set up test, figure out expected by hand
         double first = 5.0;
@@ -80,12 +67,12 @@ public class GerenukTest {
         double expected = 15.0;
 
         // call function to get the actual
-        var gerenuk = new Gerenuk("Gazelle");
-        double actual = gerenuk.getGerenukAddition(first, second);
+        var Lion = new Lion("Brown");
+        double actual = Lion.getLionAddition(first, second);
 
         // assertEquals(expected, actual);
         assertEquals(expected, actual);
     }
 
-} 
+}
 

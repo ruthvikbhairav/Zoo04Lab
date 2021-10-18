@@ -64,6 +64,7 @@ public class Cow extends Animal{
         cow.speak();
         cow.eat();
         cow.move();
+        cow.color();
         cow.studentCow();
     }
 }

@@ -30,14 +30,18 @@ public class CowGroup {
      * Run (simulate) the group doing things
      */
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        System.out.println("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC");
         System.out.println("Hey - look at the Cow!");
         myGroup.forEach(cow -> {
             cow.speak();
             cow.move();
+            cow.eat();
+            cow.color();
+        cow.studentCow();
+        System.out.println("******************");
         });
         System.out.println("Nice Cow - that was fun!");
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        System.out.println("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC");
     }
 
 }

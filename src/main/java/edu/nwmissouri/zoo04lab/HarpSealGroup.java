@@ -43,17 +43,22 @@ public class HarpSealGroup {
             HarpSeal.funfacts();
             HarpSeal.location();
             HarpSeal.food();
+            HarpSeal.calculate();
         });
         System.out.println("Nice HarpSeal - that was fun!");
-        System.out.println("HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"); 
+        System.out.println("HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH \n"); 
         
          Animals ani = Animals.HarpSeal; 
         switch(ani) {
-            case Cow:
-                System.out.println("*******Thank you for your choice of Cow*******");
+            case Cow: 
+             
+                System.out.println("***********Thank you for your choice of Cow*********");
+                System.out.println("____________________________________________________");
                 break;
             case HarpSeal: 
-                System.out.println("*******Thank you for your choice of HarpSeal*******");
+                System.out.println("____________________________________________________");
+                System.out.println("|*******Thank you for your choice of HarpSeal*******|");
+                System.out.println("____________________________________________________");
                 break;
             case Walrus: 
                 System.out.println("*******Thank you for your choice of Walrus*******");

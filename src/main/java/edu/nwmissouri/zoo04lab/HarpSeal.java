@@ -5,6 +5,8 @@
  */
 package edu.nwmissouri.zoo04lab;
 
+
+
 /**
  * HarpSeal class (derived subclass of the superclass Animal)
  * @author Rehana Naguru
@@ -37,7 +39,16 @@ public class HarpSeal extends Animal{
     public void food(){
         System.out.println("I eat many types of fish and invertibrates.");
     } 
-    
+    public void calculate() {
+        double p = 5.0;
+        int q = 4;
+        double r = getHarpSealAdd(p, q);
+        System.out.printf("I know Addition ! %4.2f addition %d is %4.2f \n", p, q, r);
+    }
+     public double getHarpSealAdd(double a, int b) { 
+        
+         return a+b;
+    }
     
     
      public static void main(String[] args) {
@@ -46,7 +57,8 @@ public class HarpSeal extends Animal{
         a.move();
         a.funfacts();
         a.location();
-        a.food(); 
+        a.food();
+        a.calculate();
         
         }
         
