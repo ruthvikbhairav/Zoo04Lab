@@ -42,6 +42,7 @@ public class FrogGroup {
            Frog.type();
            Frog.feeding();
            Frog.livespan();
+           Frog.agec();
     
            
        });

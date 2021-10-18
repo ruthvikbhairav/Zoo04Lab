@@ -31,6 +31,8 @@ public class BearcatGroup {
         for (Bearcat bearcat : myGroup) {
             bearcat.speak();
             bearcat.move();
+            bearcat.breed();
+            bearcat.cal();
         }
 
         System.out.println("Nice bearcat - that was fun!");

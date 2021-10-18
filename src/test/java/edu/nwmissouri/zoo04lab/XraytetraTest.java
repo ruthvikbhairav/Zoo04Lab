@@ -47,7 +47,7 @@ public class XraytetraTest {
      */
     @Test
     public void testSpeak() throws Exception {
-        String expected = "I'm Allie. I'm an Xraytetra!";
+        String expected = "I am Xraytetra";
         var Xraytetra = new Xraytetra("Allie");
         Xraytetra.speak();
         String actual = outputStreamCaptor.toString().trim();
@@ -61,7 +61,7 @@ public class XraytetraTest {
      */
     @Test
     public void testMove() throws Exception {
-        String expected = "When I move, I walk, walk, walk.";
+        String expected = "I can swim";
         var Xraytetra = new Xraytetra("Allie");
          Xraytetra.move();
         String actual = outputStreamCaptor.toString().trim();

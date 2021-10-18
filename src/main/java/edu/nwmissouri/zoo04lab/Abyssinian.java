@@ -34,5 +34,10 @@ public class Abyssinian extends Animal {
     {
         System.out.println("I walk on four legs.");
     }
-    
+     public static void main(String[] args) {
+        var aby = new Abyssinian("Areti");
+        aby.speak();
+        aby.move();
+        aby.eat();
+    }
 }

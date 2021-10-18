@@ -18,4 +18,10 @@ public class Arvicolinae extends Animal{
     public void move() {
         System.out.println("When I move, I walk, walk, walk.");
     } 
+    
+    public static void main( String args[]){
+        var obj=new Arvicolinae("NIKHIL");
+        obj.speak();
+        obj.move();
+    }
 }

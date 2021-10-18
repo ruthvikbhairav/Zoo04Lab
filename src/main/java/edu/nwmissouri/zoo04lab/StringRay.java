@@ -32,4 +32,10 @@ public class StringRay extends Animal {
     public void speak() {
         System.out.println("Generic animal voice");
     }
+    public static void main(String[] args){
+        var d = new StringRay("Saikrishna");
+                d.swim();
+                d.move();
+                d.speak();
+    }        
 }

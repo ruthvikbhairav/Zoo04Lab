@@ -10,7 +10,7 @@ public class Aardvark extends Animal {
     /**
      * Aardvark constructor
      *
-     * @param name - the name of this aardvark
+     * @param name - the name of this aardvark    
      */
     public Aardvark(String name) {
         super(name);

@@ -42,4 +42,14 @@ public class Rabbit extends Animal {
     public void color() {
         System.out.println("I can be White or Brown!!");
     }
+     public static void main(String[] args){
+        var par = new Rabbit("Keerthana");
+        par.speak();
+        par.move();
+        par.favfood();
+        par.skintype();
+        par.color();
+        
+        
+    }
 }

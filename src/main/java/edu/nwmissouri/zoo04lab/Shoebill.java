@@ -28,5 +28,11 @@ public class Shoebill extends Animal {
     public void eat() {
         System.out.println("I Love eating Fish");
     }
+    public static void main(String[] args){
+        var sb = new Shoebill("Gayatri");
+        sb.speak();
+        sb.eat();
+        sb.move();
+    }
 
 }

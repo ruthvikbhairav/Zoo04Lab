@@ -40,4 +40,10 @@ public class Elephant extends Animal {
         System.out.println(" I could not able to swim in water but would like to walk! ");
     }
 
+    public static void main(String[] args) {
+        Elephant Tommy = new Elephant("Tommy");
+        Tommy.speak();
+        Tommy.move();
+        
+    }
 }

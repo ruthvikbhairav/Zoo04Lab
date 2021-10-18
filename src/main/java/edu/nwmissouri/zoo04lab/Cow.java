@@ -38,4 +38,32 @@ public class Cow extends Animal{
     public void move() {
         System.out.println("When I move, I move, move, move...");
     }
+    
+    /**
+     * 
+     * @param morningMilkProdection is of type double 
+     * @param eveningMilkProduction is of type double
+     * @return double value
+     */
+    public double getCowAddition(double morningMilkProdection, double eveningMilkProduction){
+        return morningMilkProdection + eveningMilkProduction;
+    }
+    
+    /**
+     * 
+     */
+    public void studentCow(){
+        double morningMilkProdection = 2.3;
+        double eveningMilkProduction = 1.5;
+        double perDayMilkProduction = getCowAddition(morningMilkProdection, eveningMilkProduction);
+        System.out.println("I am " + this.name + ", I produce " + morningMilkProdection + "liters Of milk in the morning and "+eveningMilkProduction+"liters in the Evening, Overall I will produce "+perDayMilkProduction+"\"liters per\" day");
+    }
+    
+    public static void main(String[] args){
+        Cow cow=new Cow("cowwy");
+        cow.speak();
+        cow.eat();
+        cow.move();
+        cow.studentCow();
+    }
 }

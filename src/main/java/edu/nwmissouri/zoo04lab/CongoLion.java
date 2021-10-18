@@ -42,7 +42,11 @@ public class CongoLion extends Animal {
     {
         System.out.println("I move with four legs");
     }
-    
+     public static void main(String[] args) {
+        var CL = new Aardvark("Kintali");
+        CL.speak();
+        CL.move();
+    }
     
     
 }

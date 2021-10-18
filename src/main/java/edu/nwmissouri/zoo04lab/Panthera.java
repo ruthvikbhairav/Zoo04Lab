@@ -39,5 +39,21 @@ public class Panthera extends Animal {
     public void move() {
         System.out.println("I can eat and walk");
     }
-
+    public void logarithmic(){
+        double c=multiplication(4,5);
+          double x=Math.log(c);
+        System.out.println("the value of logarithamic function is " +x);
+    }
+    public int multiplication(int a, int b){
+        return a*b;
+    }
+    
+  public static void main(String args[]){
+      var d=new Panthera("Harshika");
+      d.speak();
+      d.move();
+      d.logarithmic();
+      
+     
+  }
 }
