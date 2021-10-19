@@ -5,7 +5,7 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- * Provides methods to create and run a group of Aardvarks
+ * Provides methods to create and run a group of MightyLions
  *
  * @author Vijay Kumar Chunchu (S545712)
  */
@@ -14,7 +14,7 @@ public class MightyLionGroup {
     private static ArrayList<MightyLion> myGroup;
 
     /**
-     * Create a static group of MightyLion
+     * Create a static group of MightyLions
      *
      * @return the number of animals in the group
      */

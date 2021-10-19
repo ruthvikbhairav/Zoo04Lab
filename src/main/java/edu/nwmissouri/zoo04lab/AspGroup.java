@@ -3,8 +3,8 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- *
- * @author S541905
+ *Provides methods to create and run a group of Asps
+ * @author Priyanka Maruthi
  */
 public class AspGroup {
 private static ArrayList<Asp> myGroup;
