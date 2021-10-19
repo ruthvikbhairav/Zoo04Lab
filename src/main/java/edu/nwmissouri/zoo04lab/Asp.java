@@ -1,23 +1,14 @@
 
 package edu.nwmissouri.zoo04lab;
-
- 
-
 /**
 
 * Asp class (derived subclass of the superclass Animal)
-
 *
-
- * @author Priyanka Maruthi
-
+* @author Priyanka Maruthi
 */
 
 public class Asp extends Animal {
-
- 
-
-    /**
+ /**
 
      * Aardvark constructor
 
@@ -31,19 +22,14 @@ public class Asp extends Animal {
 
     }
 
- 
-
-    @Override
+   @Override
 
     public void speak() {
 
         System.out.printf("I'm %s. I'm an Asp! ", this.name);
 
     }
-
- 
-
-    @Override
+  @Override
 
     public void move() {
 

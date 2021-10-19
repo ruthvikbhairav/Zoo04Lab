@@ -12,7 +12,6 @@ public class Cheetah extends Animal {
      *
      * @param name - the name of this Cheetah
      */
- 
     public Cheetah(String name) {
         super(name);
     }
