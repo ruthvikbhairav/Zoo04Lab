@@ -17,13 +17,7 @@ public class Glyptodon extends Animal{
         deer
         }
     
-    enum animal
-            {
-        lion,
-        tiger,
-        deer
-        }
-    /**
+     /**
      * 
      * Animal addition
      * @param name
