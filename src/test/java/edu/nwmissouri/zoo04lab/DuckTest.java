@@ -1,5 +1,8 @@
 package edu.nwmissouri.zoo04lab;
 
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Sandhya Nidigonda
  */
 public class DuckTest {
+    
+       private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
     
     public DuckTest() {
     }
@@ -26,46 +31,60 @@ public class DuckTest {
     
     @BeforeEach
     public void setUp() {
+        
+        System.setOut(new PrintStream(outputStreamCaptor));
     }
     
     @AfterEach
     public void tearDown() {
     }
 
-    /**
-     * Test of speak method, of class Duck.
+/**
+     * Test speak method, of class Duck.
+     *
+     * @throws java.lang.Exception
      */
     @Test
-    public void testSpeak() {
-        System.out.println("speak");
-        Duck instance = null;
-        instance.speak();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testSpeak() throws Exception {
+        String expected = "I am Duck named Sandhya";
+        var duck = new Duck("Sandhya");
+        duck.speak();
+        String actual = outputStreamCaptor.toString().trim();
+        assertEquals(expected, actual);
     }
 
     /**
-     * Test of eat method, of class Duck.
+     * Test move method, of class Duck.
+     *
+     * @throws java.lang.Exception
      */
     @Test
-    public void testEat() {
-        System.out.println("eat");
-        Duck instance = null;
-        instance.eat();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testMove() throws Exception {
+        String expected = "I use feet to swim";
+        var duck = new Duck("Sandhya");
+        duck.move();
+        String actual = outputStreamCaptor.toString().trim();
+        assertEquals(expected, actual);
     }
 
     /**
-     * Test of move method, of class Duck.
+     * Test custom function duckEggsProduction()
+     *
+     * @throws Exception
      */
     @Test
-    public void testMove() {
-        System.out.println("move");
-        Duck instance = null;
-        instance.move();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void duckEggsProduction() throws Exception {
+        
+        
+       int monthlyEggsProduction=5;
+         int monthsinYear =12;
+         int expected = 60;
+        
+        var duck = new Duck("Sandhya");
+        int  actual = duck.duckEggsProduction(monthlyEggsProduction, monthsinYear);
+
+        
+        assertEquals(expected, actual);
     }
-    
+
 }

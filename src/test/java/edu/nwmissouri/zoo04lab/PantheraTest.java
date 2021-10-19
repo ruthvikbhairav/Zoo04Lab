@@ -14,7 +14,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- *Test Aardvark using JUnit5
+ *Test Panther using JUnit5
  * @author Pinninti Harshika
  */
 public class PantheraTest {
@@ -41,7 +41,7 @@ public class PantheraTest {
     }
 
     /**
-     * Test speak method, of class Panthera.
+     * Test speak method, of class Panther
      *
      * @throws java.lang.Exception
      */
@@ -55,7 +55,7 @@ public class PantheraTest {
     }
 
     /**
-     * Test move method , for the Panthera
+     * Test move method , for the Panther
      *
      * @throws java.lang.Exception
      */
@@ -69,13 +69,13 @@ public class PantheraTest {
     }
 
     /**
-     * Test custom function AardvarkAddition()
+     * Test custom function PantheraAddition()
      *
      * @throws Exception
      */
     
     @Test
-    public void testAardvarkAddition() throws Exception {
+    public void testPantheraAddition() throws Exception {
         
         // set up test, figure out expected by hand
         double a = 6.0;
@@ -92,7 +92,6 @@ public class PantheraTest {
 
 }
     
-
 
 
 
