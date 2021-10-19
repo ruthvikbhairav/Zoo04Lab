@@ -94,8 +94,6 @@ public class ProngHorn extends Animal {
      * function profess1 calls the getProngHornAddition method
      
      */
-    
-    
      public void profess1() {
         double a = 2.5;
         int b = 2;

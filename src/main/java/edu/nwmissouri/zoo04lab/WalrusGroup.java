@@ -25,6 +25,13 @@ public class WalrusGroup {
 
         return myGroup.size();
     }
+    
+     public enum Donate {
+       Food,
+       Money,
+       ZooNeeds,
+       AdoptAnimal;
+    }
 
     /**
      * Run (simulate) the group doing things
@@ -39,6 +46,25 @@ public class WalrusGroup {
         System.out.println("Nice Walrus ");
         
         System.out.println("*******************************");
-    }
+    
+    Donate d = Donate.AdoptAnimal;
+        switch(d) {
+            case Food:
+                System.out.println("######Thank you for Donating food#######");
+                break;
+            case Money: 
+                System.out.println("$$$$$$$Thank you for Donating Money$$$$$$$$");
+                break;
+            case ZooNeeds: 
+                System.out.println("@@@@@@@@@Thank you for Donating Zoo Needs and Accesories@@@@@");
+                break;
+            case AdoptAnimal: 
+                System.out.println("********Thank you for your intrest in Adopting an animal*******");
+                break;            
+        }
+                
+ }
+    
+   }
 
-}
+
