@@ -36,7 +36,7 @@ public class ProngHornGroup {
             pronghorn.move();
             pronghorn.mul(3,2);
             pronghorn.sub(3,2);
-             pronghorn.profess1();
+            pronghorn.profess1();
 
         }
 
