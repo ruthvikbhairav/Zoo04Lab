@@ -54,6 +54,26 @@ public class ProngHorn extends Animal {
           System.out.println("When I move, I walk, walk, walk.");
     }
     
+    /** function mul gives multiplication 
+     * 
+     * @param a
+     * @param b 
+     */
+    public void mul(int a ,int b)
+    {
+        System.out.println(a * b);
+    }
+    
+    /** function sub gives subtarction
+     * 
+     * @param a
+     * @param b 
+     */
+    
+    public void sub(int a ,int b)
+    {
+        System.out.println(a-b);
+    }
     
    
     
@@ -74,8 +94,6 @@ public class ProngHorn extends Animal {
      * function profess1 calls the getProngHornAddition method
      
      */
-    
-    
      public void profess1() {
         double a = 2.5;
         int b = 2;
@@ -91,6 +109,8 @@ public class ProngHorn extends Animal {
         ProngHorn p = new ProngHorn("Alekhya");
         p.speak();
         p.move();
+        p.mul(3,2);
+        p.sub(3,2);
         p.profess1();
         
         Gender c = Gender.Male;
