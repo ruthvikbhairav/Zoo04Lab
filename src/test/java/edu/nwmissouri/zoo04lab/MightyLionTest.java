@@ -40,7 +40,7 @@ public class MightyLionTest {
     }
 
     /**
-     * Test speak method, of class Aardvark.
+     * Test speak method, of class MightyLion.
      *
      * @throws java.lang.Exception
      */
