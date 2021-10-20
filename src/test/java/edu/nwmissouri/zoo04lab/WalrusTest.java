@@ -46,7 +46,7 @@ public class WalrusTest {
     @Test
     public void testSpeak() throws Exception {
         String expected = "I'm walrus, I growls, taps and make bell-like sounds below water.";
-        var walrus = new Walrus();
+        var walrus = new Walrus("Wally");
         walrus.speak();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
