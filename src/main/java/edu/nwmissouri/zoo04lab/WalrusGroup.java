@@ -42,6 +42,9 @@ public class WalrusGroup {
         myGroup.forEach(Walrus -> {
             Walrus.speak();
             Walrus.move();
+            Walrus.intro();
+            Walrus.about();
+            Walrus.calculation();
         });
         System.out.println("Nice Walrus ");
         
