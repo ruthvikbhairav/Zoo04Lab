@@ -11,13 +11,13 @@ enum DaysofWeek{
 }
 
 /**
- *Squireel class (derived from subclass of superclass Animal)
+ * Squireel class (derived from subclass of superclass Animal)
  * @author Nithin Reddy Kumbham
  */
 public class Squirrel extends Animal{
     /**
      * Aardvark constructor
-     * @param String name1 
+     * @param name1 - name of the Squirrel 
      */
     public Squirrel(String name1){
         super(name1);
@@ -101,9 +101,7 @@ public class Squirrel extends Animal{
         System.out.println("I am female");
     }
     
-    /**
-     * Method void which multiplies a & b
-     */
+    
     public void functionMultiply(){
         int a = 10;
         int b = 15;
