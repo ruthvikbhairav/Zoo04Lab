@@ -23,6 +23,7 @@
     <url>https://zooweb.herokuapp.com/</url>
  
     <properties>
+         <start-class>edu.nwmissouri.zoo04lab.ZooWebApp</start-class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -82,6 +83,14 @@
             <type>jar</type>
         </dependency>
         
+        <!-- Add JaCoCo dependency so we can display test results -->
+        
+        <dependency>
+            <groupId>org.jacoco</groupId> 
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+        </dependency>
+        
     </dependencies>
     
     <build>
@@ -117,10 +126,50 @@
                 </configuration>
             </plugin> 
             
+            <!-- Configure Surefire plugin for the added JaCoCo report -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
+            
+            <!-- Configure JaCoCo plugin so we can display test results -->
+            
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.7</version>
+                <executions>
+                    <execution>
+                        <id>prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                        <configuration>
+                            <!-- Sets the path to the file which contains the execution data. -->
+                            <dataFile>target/jacoco.exec</dataFile>
+                            <!-- Sets the output directory for the code coverage report. -->
+                            <outputDirectory>jacoco-ut</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <systemPropertyVariables>
+                        <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
+                    </systemPropertyVariables>
+                    <excludes>
+ 
+                    </excludes>
+                </configuration>
+            </plugin>
+            
         </plugins>
     </build>
 </project>
