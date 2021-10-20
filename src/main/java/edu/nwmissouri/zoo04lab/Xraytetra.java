@@ -52,10 +52,7 @@ public class Xraytetra extends Animal {
     }
 
     /**
-     ** Custom profess function
-     *
-     * @param valueOne double input
-     * @param valueTwo int input
+     ** profess function
      *
      */
     public void profess() {
@@ -68,16 +65,16 @@ public class Xraytetra extends Animal {
     /**
      * Custom getXraytetraAddtion function
      *
-     * @param valueOne double input
-     * @param valueTwo int input
-     * @return double sum
+     * @param valueOne
+     * @param valueTwo
+     * @return double - sum
      */
     public double getXraytetraAddition(double valueOne, int valueTwo) {
         return valueOne + valueTwo;
     }
 
     /**
-     * Enum function with plant values
+     * enum function with plant values
      *
      */
     public enum Days {

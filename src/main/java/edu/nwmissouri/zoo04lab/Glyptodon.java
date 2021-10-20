@@ -17,7 +17,7 @@ public class Glyptodon extends Animal{
         deer
         }
     
-    /**
+     /**
      * 
      * Animal addition
      * @param name

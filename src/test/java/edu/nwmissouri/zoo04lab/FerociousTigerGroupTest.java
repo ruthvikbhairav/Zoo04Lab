@@ -13,47 +13,61 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author Pavan Kumar Atmakuri
+ * @author Saitej Veerabathini
  */
-public class BearcatGroupTest {
+public class FerociousTigerGroupTest {
     
-    public BearcatGroupTest() {
+    /**
+     *Constructor Ferocious Tiger Group Test
+     */
+    public FerociousTigerGroupTest() {
     }
     
+    /**
+     *
+     */
     @BeforeAll
     public static void setUpClass() {
     }
-    
+
+    /**
+     *
+     */
     @AfterAll
     public static void tearDownClass() {
     }
-    
+
+    /**
+     *
+     */
     @BeforeEach
     public void setUp() {
     }
-    
+
+    /**
+     *
+     */
     @AfterEach
     public void tearDown() {
     }
-    
 
     /**
-     * Test of create method, of class BearcatGroup.
+     * Test of create method, of class FerociousTigerGroup.
      */
     @Test
     public void testCreate() {
-        int expResult = 3;
-        int result = BearcatGroup.create();
-        assertEquals(expResult, result);
+        int expectedSize = 3;
+        int actualSize = FerociousTigerGroup.create();
+        assertEquals(expectedSize, actualSize);
     }
 
     /**
-     * Test of run method, of class BearcatGroup.
+     * Test of run method, of class FerociousTigerGroup.
      */
     @Test
     public void testRun() {
-        BearcatGroup.create();
-        BearcatGroup.run();
+        RelayHorseGroup.create();
+        RelayHorseGroup.run();
         assertTrue(true);
     }
     

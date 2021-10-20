@@ -54,6 +54,7 @@ public class BlackPanther extends Animal {
         a.speak();
         a.move();
         a.profes();
+
       BIRD B1 = BIRD.Eagle;
       BIRD B2 = BIRD.Sparrow;
       BIRD B3 = BIRD.Parrot;

@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- *
+ * Provides methods to create and run a group of TauntingTiger
  * @author Sarath Arrepu (S545027)
  */
 public class TauntingTigerGroup {

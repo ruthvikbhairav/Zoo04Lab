@@ -42,13 +42,7 @@ public class Rabbit extends Animal {
     public void color() {
         System.out.println("I can be White or Brown!!");
     }
-    /**
-     ** Custom cal function
-     *
-     * @param m double input
-     * @param n int input
-     *
-     */
+  
     public void cal() {
         double m = 4.0;
         int n = 2;
@@ -61,10 +55,7 @@ public class Rabbit extends Animal {
         return m + n;
     }
 
-    /**
-     * Enum function with FOODHabits values
-     *
-     */
+   
     public enum FoodHabits {
         CARNIVORES,
         HERBIVORES,

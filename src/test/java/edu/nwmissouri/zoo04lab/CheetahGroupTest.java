@@ -1,9 +1,3 @@
-package edu.nwmissouri.zoo04lab;
-
-/**
- *
- * @author Jayanth Naramsetty
- */
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,13 +13,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Test Brachiosaurus Group.
+ * Test Cheetah Group.
  * 
- * @author Jayanth Naramsetty
+ * @author Sriolekha Janagam
  */
-public class BrachiosaurusGroupTest {
+public class CheetahGroupTest {
 
-    public BrachiosaurusGroupTest() {
+    public CheetahGroupTest() {
     }
 
     @BeforeAll
@@ -45,22 +39,22 @@ public class BrachiosaurusGroupTest {
     }
 
     /**
-     * Test of create method, of class BrachiosaurusGroup.
+     * Test of create method, of class CheetahGroup.
      */
     @Test
     public void testGroupCreate() {
         int expectedSize = 3;
-        int actualSize = BrachiosaurusGroup.create();
+        int actualSize = CheetahGroup.create();
         assertEquals(expectedSize, actualSize);
     }
 
     /**
-     * Test of run method, of class BrachiosaurusGroup.
+     * Test of run method, of class CheetahGroup.
      */
     @Test
     public void testGroupRun() {
-        BrachiosaurusGroup.create();
-        BrachiosaurusGroup.run();
+        CheetahGroup.create();
+        CheetahGroup.run();
         assertTrue(true);
     }
 

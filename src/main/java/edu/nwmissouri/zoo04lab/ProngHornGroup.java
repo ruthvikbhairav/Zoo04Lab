@@ -34,7 +34,9 @@ public class ProngHornGroup {
         for (ProngHorn pronghorn : myGroup) {
             pronghorn.speak();
             pronghorn.move();
-             pronghorn.profess1();
+            pronghorn.mul(3,2);
+            pronghorn.sub(3,2);
+            pronghorn.profess1();
 
         }
 
